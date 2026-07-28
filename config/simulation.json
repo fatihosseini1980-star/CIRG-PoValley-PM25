@@ -1,0 +1,25 @@
+{
+  "seed": 20260726,
+  "replications": 50,
+  "sites": 50,
+  "candidate_sources": 40,
+  "unseen_targets": 10,
+  "calibration_days": 50,
+  "test_days": 70,
+  "student_t_df": 5,
+  "nugget_weight_omega": 0.18,
+  "dependence": {
+    "distance_only": "exp(-4*d)",
+    "adaptive": "exp(-4*d - 1.2*|dz| - 0.8*|dx|)"
+  },
+  "graph_grid": {
+    "distance_coefficient": [2.0, 4.0, 6.0],
+    "static_attribute_coefficient": [0.0, 1.25, 2.5],
+    "dynamic_covariate_coefficient": [0.0, 1.0, 2.0],
+    "shrinkage": [0.75, 1.0],
+    "fixed_penalty": "0.001*(az^2+ax^2)"
+  },
+  "rbf_bandwidth_grid": [0.08, 0.12, 0.18, 0.25, 0.35, 0.50, 0.75],
+  "source_counts": [40, 20, 10],
+  "target_scale_shift": 1.35
+}
