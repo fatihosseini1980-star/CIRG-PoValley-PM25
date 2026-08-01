@@ -1,6 +1,7 @@
 # CIRG Po Valley reproducibility repository
 
-This repository contains the frozen code and compact outputs for **PM2.5 Virtual Sensing at Unseen Sites under Spatio--Temporal Shift: A Calibrated Inductive Residual Graph**.
+This repository contains the frozen code and compact outputs for **Calibrated Inductive Residual Graphs for Prediction at Unseen Sites
+under Temporal Shift: An Application to PM$_{2.5}$ Virtual Sensing**.
 
 ## What is included
 
