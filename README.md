@@ -62,7 +62,7 @@ The exact manuscript replacements for simulation settings and event probability 
 
 ## Reproducibility boundary
 
-The ten locked stations and 2023 outcomes were used only after the development specification was frozen. Source-thinning, subgroup, outlier, and moving-block analyses are post-test sensitivity analyses and must be labelled accordingly.
+The ten locked stations and 2023 outcomes were used only after the development specification was frozen. Source-thinning, outlier, and moving-block analyses are post-test sensitivity analyses and must be labelled accordingly.
 
 
 ## Completed sensitivity results
