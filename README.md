@@ -1,6 +1,6 @@
 # CIRG Po Valley reproducibility repository
 
-This repository contains the frozen code and compact outputs for **Calibrated Inductive Residual Graph for PM2.5 Virtual Sensing under Joint Spatial–Temporal Shift**.
+This repository contains the frozen code and compact outputs for **PM2.5 Virtual Sensing at Unseen Sites under Spatio--Temporal Shift: A Calibrated Inductive Residual Graph**.
 
 ## What is included
 
