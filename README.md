@@ -69,3 +69,10 @@ The ten locked stations and 2023 outcomes were used only after the development s
 ## Completed sensitivity results
 
 The final rerun generated all prespecified controls. Exact manuscript-output analyses are under `results/sensitivity/` and the insertion-ready text is in `docs/MANUSCRIPT_SENSITIVITY.tex`. The 2019 deletion required a controlled full refit; the 2023 deletion and 7/14-day moving-block bootstraps use the exact archived row-level predictions underlying the manuscript. See `docs/SENSITIVITY_RESULTS.md` for interpretation and the reproducibility boundary.
+
+## Uncertainty-model implementation
+
+The CIRG and RBF25 uncertainty workflows are implemented separately to preserve the matched evaluation design.
+
+- `legacy/frozen_code/po_stage2_uncertainty_learned.py` implements the cross-fitted uncertainty model for CIRG development folds.
+- `src/direct_uncertainty.py` applies the matched uncertainty procedure to the source-validated RBF25 comparator.
