@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "CIRG-PoValley-PM25: Code and reproducibility materials"
+message: "Please cite the associated manuscript (submission version) and original GRINS AQCLIM data source."
+type: software
+authors:
+  - family-names: Hosseini
+    given-names: Fatemeh
+  - family-names: Karimi
+    given-names: Omid
+version: 1.1.0
+date-released: 2026-10-24

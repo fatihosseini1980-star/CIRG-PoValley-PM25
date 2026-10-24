@@ -1,0 +1,147 @@
+{
+  "source_file_sha256": {
+    "uploaded": "4acb09c4e36dc9281510d60d7f0bf8e9b5d0b486e1d4f0927e785c671dd56c14",
+    "repository_processed": "4acb09c4e36dc9281510d60d7f0bf8e9b5d0b486e1d4f0927e785c671dd56c14",
+    "reconstructed_from_raw": "d86d13457e5bb4e009ccf94607aff4f3a680e50db01c7349c260439b8323c74d"
+  },
+  "processed_upload_equals_repository": true,
+  "raw_reconstruction_row_key_match": true,
+  "raw_reconstruction_compared_columns": [
+    "StationID",
+    "Date",
+    "Year",
+    "Month",
+    "DayOfYear",
+    "Season",
+    "PM25",
+    "BLH",
+    "RH",
+    "T2M",
+    "Precipitation",
+    "WindSpeed",
+    "WindDirection",
+    "SolarRadiation",
+    "LAI_HighVegetation",
+    "LAI_LowVegetation",
+    "Longitude",
+    "Latitude",
+    "Altitude",
+    "StationType",
+    "StationArea",
+    "PM25_Z_Train",
+    "BLH_Z_Train",
+    "RH_Z_Train",
+    "T2M_Z_Train",
+    "Precipitation_Z_Train",
+    "WindSpeed_Z_Train",
+    "SolarRadiation_Z_Train",
+    "LAI_HighVegetation_Z_Train",
+    "LAI_LowVegetation_Z_Train",
+    "Longitude_Z_Train",
+    "Latitude_Z_Train",
+    "Altitude_Z_Train",
+    "MonthSin",
+    "MonthCos",
+    "DayOfYearSin",
+    "DayOfYearCos",
+    "QCFlag",
+    "PrimaryAnalysisInclude"
+  ],
+  "raw_reconstruction_mismatch_counts": {
+    "DayOfYearSin": 101913,
+    "DayOfYearCos": 101913
+  },
+  "record_counts": {
+    "development/2022": 13323,
+    "development/2023": 12630,
+    "development/train": 55444,
+    "locked/2022": 3337,
+    "locked/2023": 3237,
+    "locked/train": 13942
+  },
+  "raw_data_rows": 1213134,
+  "archived_metrics_recomputed": {
+    "Climatology-anomaly baseline": {
+      "n": 3237,
+      "RMSE": 9.23824879959462,
+      "MAE": 6.491975437246753,
+      "Bias": 2.369162187809184,
+      "R2": 0.4977895404136623
+    },
+    "IDW-2 observed sources": {
+      "n": 3237,
+      "RMSE": 5.962466080081173,
+      "MAE": 3.6431854978448337,
+      "Bias": 0.2737005524883153,
+      "R2": 0.7908016340931421
+    },
+    "Inductive climatology + learned edge": {
+      "n": 3237,
+      "RMSE": 5.897327437089799,
+      "MAE": 3.7632602858505164,
+      "Bias": 0.43546079895376744,
+      "R2": 0.7953475592338328
+    },
+    "Nearest observed source": {
+      "n": 3237,
+      "RMSE": 6.369680214775273,
+      "MAE": 4.122617866398561,
+      "Bias": -0.1655839952672747,
+      "R2": 0.7612509215435392
+    },
+    "RBF25": {
+      "n": 3237,
+      "RMSE": 5.682746682624017,
+      "MAE": 3.486626250202344,
+      "Bias": -0.34603379754959257,
+      "R2": 0.8099696193627253
+    },
+    "CIRG_prob": {
+      "n": 3237,
+      "RMSE": 5.897327437089799,
+      "MAE": 3.7632602858505164,
+      "Bias": 0.43546079895376755,
+      "R2": 0.7953475592338328,
+      "CRPS_row": 2.7799174962109263,
+      "LogScore_row": 2.9593308094233226,
+      "IntervalScore90": 22.519772371508182,
+      "Cov90": 0.9573679332715477,
+      "Width90": 19.536812635434682
+    },
+    "RBF25_prob": {
+      "n": 3237,
+      "RMSE": 5.682746682624017,
+      "MAE": 3.486626250202344,
+      "Bias": -0.3460337975495925,
+      "R2": 0.8099696193627253,
+      "CRPS_row": 2.576989279584868,
+      "LogScore_row": 2.903142932326561,
+      "IntervalScore90": 23.0080355446808,
+      "Cov90": 0.959221501390176,
+      "Width90": 20.042021536492534
+    }
+  },
+  "paired_archived_test": {
+    "matched_keys": 3237,
+    "max_difference_observed": 3.568522174646205e-06,
+    "row_weighted": {
+      "AE": 0.27663403564817207,
+      "SE": 2.484861041377873,
+      "CRPS": 0.2029282166260588
+    },
+    "equal_day_weighted": {
+      "AE": 0.27023440847033564,
+      "SE": 2.064372213090976,
+      "CRPS": 0.19841262703398524
+    },
+    "number_of_days": 359
+  },
+  "corrected_reconstruction": {
+    "key_count": 101913,
+    "reconstructed_columns": 37,
+    "year_specific_period": "365 days in common years, 366 days in leap years",
+    "numerically_different_cells": 0,
+    "float_comparison": "rel_tol=1e-10, abs_tol=1e-9"
+  },
+  "pilot_workbook": "2023 44-station pilot; not substituted for main 50-station experiment"
+}

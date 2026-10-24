@@ -1,0 +1,20 @@
+Analysis,Scenario,Model,Metric,Value
+2023 locked outlier,Primary,CIRG,RMSE,5.8973274370898
+2023 locked outlier,Primary,CIRG,MAE,3.7632602858505164
+2023 locked outlier,Primary,CIRG,CRPS,2.7799174962109263
+2023 locked outlier,Exclude locked-test 203,CIRG,RMSE,5.033132875381892
+2023 locked outlier,Exclude locked-test 203,CIRG,MAE,3.7103642654874402
+2023 locked outlier,Exclude locked-test 203,CIRG,CRPS,2.7285020565257185
+2023 locked outlier,Primary,RBF25,RMSE,5.682746682624017
+2023 locked outlier,Primary,RBF25,MAE,3.486626250202344
+2023 locked outlier,Primary,RBF25,CRPS,2.576989279584868
+2023 locked outlier,Exclude locked-test 203,RBF25,RMSE,4.86979644175411
+2023 locked outlier,Exclude locked-test 203,RBF25,MAE,3.436185728493388
+2023 locked outlier,Exclude locked-test 203,RBF25,CRPS,2.528899099532074
+2019 development outlier controlled refit,Without2019_203 minus matching primary,CIRG external,RMSE,0.0953945506432498
+2019 development outlier controlled refit,Without2019_203 minus matching primary,CIRG external,MAE,0.0514273546500501
+2019 development outlier controlled refit,Without2019_203 minus matching primary,CIRG external,CRPS,0.0530649463658505
+2019 development outlier controlled refit,Without2019_203 minus matching primary,CIRG event P90,Recall,-0.0146341463414634
+2019 development outlier controlled refit,Without2019_203 minus matching primary,CIRG event P90,F1,0.0005636297757558
+2019 development outlier controlled refit,Without2019_203 minus matching primary,CIRG event P95,Recall,-0.0319148936170212
+2019 development outlier controlled refit,Without2019_203 minus matching primary,CIRG event P95,F1,-0.0213306246825799

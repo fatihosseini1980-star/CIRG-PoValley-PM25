@@ -1,0 +1,5 @@
+Comparison,Metric,MeanDifference,CI_Lower,CI_Upper,ProbabilityLearnedBetter
+Learned edge minus source-validated RBF25,AE,0.27023441594476005,0.15650058054310853,0.3786141841803495,0.0
+Learned edge minus source-validated RBF25,SE,2.0643721577823126,-0.6580782112263025,5.132735685984895,0.0712
+Learned edge minus source-validated RBF25,CRPS,0.19841262703398527,0.13093541569679001,0.2645089164282587,0.0
+Learned edge minus source-validated RBF25,IntervalScore90,-0.4963377617835808,-1.0764087003610772,0.07805993276957697,0.955
