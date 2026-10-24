@@ -1,7 +1,0 @@
-Comparison,Metric,MeanDifference,CI_Lower,CI_Upper,ProbabilitySelectedBetter
-Inductive climatology + learned edge minus Climatology-anomaly baseline,AE,-2.623046223831272,-2.938284705387498,-2.3304072764727506,1.0
-Inductive climatology + learned edge minus Climatology-anomaly baseline,SE,-47.648984754353044,-56.32214772004755,-39.29921417697996,1.0
-Inductive climatology + learned edge minus Nearest observed source,AE,-0.3728083277378317,-0.5014606461422685,-0.25224118509784027,1.0
-Inductive climatology + learned edge minus Nearest observed source,SE,-6.500483986574868,-10.37049419666406,-2.777600194313228,0.9994
-Inductive climatology + learned edge minus IDW-2 observed sources,AE,0.12151040458074687,0.008164855256606453,0.22563139373156085,0.0172
-Inductive climatology + learned edge minus IDW-2 observed sources,SE,-0.962957638723348,-3.514422922837759,1.3743016553653316,0.7764
